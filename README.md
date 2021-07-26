@@ -25,7 +25,7 @@ $ ./build.sh
 ```
 
 #### Sample Output
-<img src="./task/images/terminal_output.png" width="70%">
+<img src="./task/images/terminal_output.PNG" width="70%">
 
 * __Yellow Box__: The environment variable - "container_name" passed while starting the container with the analysis code.
 * __Blue Box__: The transfer of data files between two containers.
