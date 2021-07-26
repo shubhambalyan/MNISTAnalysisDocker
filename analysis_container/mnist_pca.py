@@ -8,7 +8,7 @@ mnist_data = np.loadtxt("mnist_data.csv", delimiter=",")
 
 # Test-Train Split 
 np.random.shuffle(mnist_data)
-test_data, train_data = mnist_data[:10000,:], mnist_data[10000:,:]
+test_data, train_data = mnist_data[:2000,:], mnist_data[2000:,:]
 
 train_imgs = np.asfarray(train_data[:, 1:])
 test_imgs = np.asfarray(test_data[:, 1:])
